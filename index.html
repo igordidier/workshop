@@ -150,8 +150,12 @@ https://templatemo.com/tm-543-breezed
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ***** About Area Starts ***** -->
-    <section class="section" id="about">
-      <div id='map' style='width: 400px; height: 300px;'></div>
+    <section class="section" id="about" style="
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+">
+      <div id="map" style="width: 700px; height: 550px;" class="mapboxgl-map"><div class="mapboxgl-canary" style="visibility: hidden;"></div><div class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate"><canvas class="mapboxgl-canvas" tabindex="0" aria-label="Map" width="1400" height="1100" style="width: 700px;display: flex;height: 550px;margin: auto;"></canvas></div><div class="mapboxgl-control-container"><div class="mapboxgl-ctrl-top-left"></div><div class="mapboxgl-ctrl-top-right"></div><div class="mapboxgl-ctrl-bottom-left"><div class="mapboxgl-ctrl" style="display: block;"><a class="mapboxgl-ctrl-logo" target="_blank" rel="noopener nofollow" href="https://www.mapbox.com/" aria-label="Mapbox logo"></a></div></div><div class="mapboxgl-ctrl-bottom-right"><div class="mapboxgl-ctrl mapboxgl-ctrl-attrib"><div class="mapboxgl-ctrl-attrib-inner"><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a> <a class="mapbox-improve-map" href="https://apps.mapbox.com/feedback/?owner=mapbox&amp;id=streets-v11&amp;access_token=pk.eyJ1IjoiaWRpZGllciIsImEiOiJja2VzYTJhMjMwaWd3MzFvNjZvcmtya3J5In0.UgGJC5D36ue-GnbDOFBsmQ" target="_blank" rel="noopener nofollow">Improve this map</a></div></div></div></div></div>
       <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiaWRpZGllciIsImEiOiJja2VzYTJhMjMwaWd3MzFvNjZvcmtya3J5In0.UgGJC5D36ue-GnbDOFBsmQ';
       var map = new mapboxgl.Map({
@@ -160,6 +164,7 @@ https://templatemo.com/tm-543-breezed
       });
       </script>
     </section>
+
     <!-- ***** About Area Ends ***** -->
 
     <!-- ***** Features Big Item Start ***** -->
@@ -219,7 +224,7 @@ https://templatemo.com/tm-543-breezed
 
 
     <!-- ***** Projects Area Starts ***** -->
-    
+
     <!-- ***** Testimonials Ends ***** -->
 
     <!-- ***** Contact Us Area Starts ***** -->
