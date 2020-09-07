@@ -16,7 +16,7 @@
     <title>ECOPAIN</title>
     <style>
     	body { margin: 0; padding: 0; }
-    	#map { position: absolute; top: 0; bottom: 0; width: 100%;height: 500px;}
+    	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
     </style>
 <!--
 
@@ -153,7 +153,11 @@ https://templatemo.com/tm-543-breezed
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ***** About Area Starts ***** -->
-    <section class="section" id="about" >
+    <section class="section" id="about" style="
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+">
 <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
 <link
 rel="stylesheet"
@@ -206,7 +210,7 @@ accessToken: mapboxgl.accessToken
                             <img src="assets/images/features-icon-1.png" alt="">
                         </div>
                         <div class="features-content">
-                            <h4>Master Planning</h4>
+                            <h4>how it work</h4>
                             <p>Tout d'abords mettez votre position suivi de votre destination et ECOPAIN se chargeras de vous trouvez sois une piste cyclable rapide oû le trajet le plus rapide et ecologique.</p>
                             <a href="#" class="text-button-icon">
                                 Learn More <i class="fa fa-arrow-right"></i>
@@ -220,10 +224,10 @@ accessToken: mapboxgl.accessToken
                             <img src="assets/images/features-icon-1.png" alt="">
                         </div>
                         <div class="features-content">
-                            <h4>Smooth Execution</h4>
+                            <h4>principle</h4>
                             <p>trajet preferable en velo si celui ci fait moins de 30km sinon ECOPAIN vous trouveras un itineraire moins pollué et plus rapide possible.</p>
                             <a href="#" class="text-button-icon">
-                                Learn More <i class="fa fa-arrow-right"></i>
+                                plus d'info <i class="fa fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -249,13 +253,13 @@ accessToken: mapboxgl.accessToken
                 <div class="col-lg-4 col-md-4 col-xs-12">
                     <div class="left-text-content">
                         <div class="section-heading">
-                            <h6>Contact Us</h6>
-                            <h2>Feel free to keep in touch with us!</h2>
+                            <h6>Contact us</h6>
+                            <h2>Feel free to responsable of the ecology with us!</h2>
                         </div>
                         <ul class="contact-info">
-                            <li><img src="assets/images/contact-info-01.png" alt="">010-020-0860</li>
+                            <li><img src="assets/images/contact-info-01.png" alt="">000-000-0000</li>
                             <li><img src="assets/images/contact-info-02.png" alt="">ecopainplanet@gmail.com</li>
-                            <li><img src="assets/images/contact-info-03.png" alt="">www.company.com</li>
+                            <li><img src="assets/images/contact-info-03.png" alt="">www.ecopainplanet.com</li>
                         </ul>
                     </div>
                 </div>
@@ -308,21 +312,13 @@ accessToken: mapboxgl.accessToken
             <div class="row">
                 <div class="col-lg-6 col-xs-12">
                     <div class="left-text-content">
-                        <p>Copyright &copy; 2020 Breezed Co., Ltd.
+                        <p>Copyright &copy; ecopainplanet/b2_2k20.
 
                         - Design: <a rel="nofollow noopener" href="https://templatemo.com">TemplateMo</a></p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xs-12">
                     <div class="right-text-content">
-                            <ul class="social-icons">
-                                <li><p>Follow Us</p></li>
-                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
-                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-twitter"></i></a></li>
-                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-dribbble"></i></a></li>
-                            </ul>
-                    </div>
                 </div>
             </div>
         </div>
