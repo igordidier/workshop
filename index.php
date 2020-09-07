@@ -154,10 +154,10 @@ https://templatemo.com/tm-543-breezed
 
     <!-- ***** About Area Starts ***** -->
     <section class="section" id="about" >
-<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+<script src="assets/js/mapbox-gl-directions.js"></script>
 <link
 rel="stylesheet"
-href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+href="assets/css/mapbox-gl-directions.css"
 type="text/css"
 />
 <div id="map"></div>
