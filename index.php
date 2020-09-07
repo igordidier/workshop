@@ -197,7 +197,7 @@ accessToken: mapboxgl.accessToken
                         </div>
                         <div class="features-content">
                             <h4>Initial Work</h4>
-                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <p>Avec ECOPAIN , trouvez le trajet le plus ecologique et le plus rapide.</p>
                             <a href="#" class="text-button-icon">
                                 Learn More <i class="fa fa-arrow-right"></i>
                             </a>
@@ -211,7 +211,7 @@ accessToken: mapboxgl.accessToken
                         </div>
                         <div class="features-content">
                             <h4>Master Planning</h4>
-                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <p>Tout d'abords mettez votre position suivi de votre destination et ECOPAIN se chargeras de vous trouvez sois une piste cyclable rapide oû le trajet le plus rapide et ecologique.</p>
                             <a href="#" class="text-button-icon">
                                 Learn More <i class="fa fa-arrow-right"></i>
                             </a>
@@ -225,7 +225,7 @@ accessToken: mapboxgl.accessToken
                         </div>
                         <div class="features-content">
                             <h4>Smooth Execution</h4>
-                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <p>trajet preferable en velo si celui ci fait moins de 30km sinon ECOPAIN vous trouveras un itineraire moins pollué et plus rapide possible.</p>
                             <a href="#" class="text-button-icon">
                                 Learn More <i class="fa fa-arrow-right"></i>
                             </a>
@@ -258,7 +258,7 @@ accessToken: mapboxgl.accessToken
                         </div>
                         <ul class="contact-info">
                             <li><img src="assets/images/contact-info-01.png" alt="">010-020-0860</li>
-                            <li><img src="assets/images/contact-info-02.png" alt="">info@company.com</li>
+                            <li><img src="assets/images/contact-info-02.png" alt="">ecopainplanet@gmail.com</li>
                             <li><img src="assets/images/contact-info-03.png" alt="">www.company.com</li>
                         </ul>
                     </div>
