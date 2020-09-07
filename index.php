@@ -14,7 +14,10 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
 
     <title>ECOPAIN</title>
-
+    <style>
+    	body { margin: 0; padding: 0; }
+    	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
 <!--
 
 Breezed Template
@@ -155,14 +158,30 @@ https://templatemo.com/tm-543-breezed
     /* margin: auto; */
     justify-content: center;
 ">
-      <div id="map" style="width: 700px; height: 550px;" class="mapboxgl-map"><div class="mapboxgl-canary" style="visibility: hidden;"></div><div class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate"><canvas class="mapboxgl-canvas" tabindex="0" aria-label="Map" width="1400" height="1100" style="width: 700px;display: flex;height: 550px;margin: auto;"></canvas></div><div class="mapboxgl-control-container"><div class="mapboxgl-ctrl-top-left"></div><div class="mapboxgl-ctrl-top-right"></div><div class="mapboxgl-ctrl-bottom-left"><div class="mapboxgl-ctrl" style="display: block;"><a class="mapboxgl-ctrl-logo" target="_blank" rel="noopener nofollow" href="https://www.mapbox.com/" aria-label="Mapbox logo"></a></div></div><div class="mapboxgl-ctrl-bottom-right"><div class="mapboxgl-ctrl mapboxgl-ctrl-attrib"><div class="mapboxgl-ctrl-attrib-inner"><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a> <a class="mapbox-improve-map" href="https://apps.mapbox.com/feedback/?owner=mapbox&amp;id=streets-v11&amp;access_token=pk.eyJ1IjoiaWRpZGllciIsImEiOiJja2VzYTJhMjMwaWd3MzFvNjZvcmtya3J5In0.UgGJC5D36ue-GnbDOFBsmQ" target="_blank" rel="noopener nofollow">Improve this map</a></div></div></div></div></div>
-      <script>
-      mapboxgl.accessToken = 'pk.eyJ1IjoiaWRpZGllciIsImEiOiJja2VzYTJhMjMwaWd3MzFvNjZvcmtya3J5In0.UgGJC5D36ue-GnbDOFBsmQ';
-      var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v11'
-      });
-      </script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+<link
+rel="stylesheet"
+href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+type="text/css"
+/>
+<div id="map"></div>
+
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiYmFya296YSIsImEiOiJja2VzaHAybTgyNzlyMndvODR5MDQxMzg0In0.qXzsC3LIeIgJ11ghRP35WQ';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [5.72639, 45.18694],
+zoom: 13
+});
+
+map.addControl(
+new MapboxDirections({
+accessToken: mapboxgl.accessToken
+}),
+'top-left'
+);
+</script>
     </section>
 
     <!-- ***** About Area Ends ***** -->
