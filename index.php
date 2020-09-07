@@ -16,7 +16,7 @@
     <title>ECOPAIN</title>
     <style>
     	body { margin: 0; padding: 0; }
-    	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    	#map { position: absolute; top: 0; bottom: 0; width: 100%;height: 500px;}
     </style>
 <!--
 
@@ -153,11 +153,7 @@ https://templatemo.com/tm-543-breezed
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ***** About Area Starts ***** -->
-    <section class="section" id="about" style="
-    display: flex;
-    /* margin: auto; */
-    justify-content: center;
-">
+    <section class="section" id="about" >
 <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
 <link
 rel="stylesheet"
