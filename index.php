@@ -154,7 +154,7 @@ https://templatemo.com/tm-543-breezed
 
     <!-- ***** About Area Starts ***** -->
     <section class="section" id="about" >
-<script src="assets/js/mapbox-gl-directions.js"></script>
+
 <link
 rel="stylesheet"
 href="assets/css/mapbox-gl-directions.css"
@@ -163,6 +163,8 @@ type="text/css"
 <div id="map"></div>
 
 <script>
+<?php include 'assets/js/mapbox-gl-directions.js'; ?>
+
   mapboxgl.accessToken = 'pk.eyJ1IjoiYmFya296YSIsImEiOiJja2VzaHAybTgyNzlyMndvODR5MDQxMzg0In0.qXzsC3LIeIgJ11ghRP35WQ';
 var map = new mapboxgl.Map({
 container: 'map',
@@ -177,6 +179,7 @@ accessToken: mapboxgl.accessToken
 }),
 'top-left'
 );
+
 </script>
     </section>
 
