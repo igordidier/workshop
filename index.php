@@ -302,9 +302,7 @@ accessToken: mapboxgl.accessToken
             <div class="row">
                 <div class="col-lg-6 col-xs-12">
                     <div class="left-text-content">
-                        <p>Copyright &copy; 2020 Breezed Co., Ltd.
-
-                        - Design: <a rel="nofollow noopener" href="https://templatemo.com">TemplateMo</a></p>
+                        <p>Copyright &copy; Ecopain, EPSI GRENOBLE 2020.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xs-12">
