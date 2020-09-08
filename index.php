@@ -125,7 +125,7 @@ https://templatemo.com/tm-543-breezed
             <div class="img-fill">
                 <img src="assets/images/slide-02.jpg" alt="">
                 <div class="text-content">
-                  <h3>Le Futur dans Tes Main</h3>
+                  <h3>Le Futur dans Tes Mains</h3>
                   <h5>Un site innovant et pratique </h5>
                   <a href="#" class="main-stroked-button">Documentation<i class="fa fa-arrow-down"></i></a>
                 </div>
@@ -168,8 +168,59 @@ accessToken: mapboxgl.accessToken
 );
 
 </script>
-
+<section class="section" id="features">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-1.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Le Saviez-Vous ?</h4>
+                            <p>Rouler coûte de plus en plus cher avec une voiture, en plus de produire en quantité des émissions de gaz à effet de serre, qui contribuent malheureseument
+                              a la polution des villes et, sur une plus grande echelle, au réchaufement climatique. En moyenne, la plupart de nos trajets urbains ne dépassent pas deux kilomètres, la voiture peut
+                              être remplacée.</p>
+                            <a href="https://fr.wikipedia.org/wiki/Impact_environnemental_du_transport_routier" class="text-button-icon">
+                                En Savoir Plus</a> <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-1.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Master Planning</h4>
+                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-1.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Smooth Execution</h4>
+                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    </section>
+
 
     <!-- ***** About Area Ends ***** -->
 
