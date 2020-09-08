@@ -181,59 +181,12 @@ accessToken: mapboxgl.accessToken
 );
 
 </script>
+
     </section>
 
     <!-- ***** About Area Ends ***** -->
 
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-1.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Initial Work</h4>
-                            <p>Avec ECOPAIN , trouvez le trajet le plus ecologique et le plus rapide.</p>
-                            <a href="#" class="text-button-icon">
-                                Learn More <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-1.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Master Planning</h4>
-                            <p>Tout d'abords mettez votre position suivi de votre destination et ECOPAIN se chargeras de vous trouvez sois une piste cyclable rapide oû le trajet le plus rapide et ecologique.</p>
-                            <a href="#" class="text-button-icon">
-                                Learn More <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-1.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Smooth Execution</h4>
-                            <p>trajet preferable en velo si celui ci fait moins de 30km sinon ECOPAIN vous trouveras un itineraire moins pollué et plus rapide possible.</p>
-                            <a href="#" class="text-button-icon">
-                                Learn More <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!-- ***** Features Big Item End ***** -->
 
     <!-- ***** Features Big Item Start ***** -->
@@ -322,8 +275,7 @@ accessToken: mapboxgl.accessToken
                                 <li><p>Follow Us</p></li>
                                 <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
                                 <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-twitter"></i></a></li>
-                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-dribbble"></i></a></li>
+
                             </ul>
                     </div>
                 </div>
