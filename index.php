@@ -153,15 +153,11 @@ https://templatemo.com/tm-543-breezed
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ***** About Area Starts ***** -->
-    <section class="section" id="about" style="
-    display: flex;
-    /* margin: auto; */
-    justify-content: center;
-">
-<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <section class="section" id="about" >
+<script src="assets/js/mapbox-gl-directions.js"></script>
 <link
 rel="stylesheet"
-href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+href="assets/css/mapbox-gl-directions.css"
 type="text/css"
 />
 <div id="map"></div>

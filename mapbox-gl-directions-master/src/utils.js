@@ -47,7 +47,7 @@ const format = {
   },
 
   imperial(m) {
-    var mi = m / 1609.344;
+    var mi = m / 1;
     if (mi >= 100) return mi.toFixed(0) + 'mi';
     if (mi >= 10) return mi.toFixed(1) + 'mi';
     if (mi >= 0.1) return mi.toFixed(2) + 'mi';
