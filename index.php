@@ -115,7 +115,7 @@ https://templatemo.com/tm-543-breezed
                 <div class="text-content">
                   <h3>Bienvenue à ECOPAIN</h3>
                   <h5>Un Trajet Pour La Planète</h5>
-                  <a href="#" class="main-stroked-button">Regarder la Carte<i class="fa fa-arrow-down"></i></a>
+                  <a href="#about" class="main-stroked-button">Regarder la Carte<i class="fa fa-arrow-down"></i></a>
                 </div>
             </div>
           </div>
@@ -125,26 +125,14 @@ https://templatemo.com/tm-543-breezed
             <div class="img-fill">
                 <img src="assets/images/slide-02.jpg" alt="">
                 <div class="text-content">
-                  <h3>Le Future dans Tes Main</h3>
-                  <h5></h5>
-                  <a href="#" class="main-stroked-button">Read More</a>
-                  <a href="#" class="main-filled-button">Take Action</a>
+                  <h3>Le Futur dans Tes Main</h3>
+                  <h5>Un site innovant et pratique </h5>
+                  <a href="#" class="main-stroked-button">Documentation<i class="fa fa-arrow-down"></i></a>
                 </div>
             </div>
           </div>
           <!-- // Item -->
           <!-- Item -->
-          <div class="item">
-            <div class="img-fill">
-                <img src="assets/images/slide-03.jpg" alt="">
-                <div class="text-content">
-                  <h3>High Performance</h3>
-                  <h5>Robust and Speedy</h5>
-                  <a href="#" class="main-stroked-button">Learn More</a>
-                  <a href="#" class="main-filled-button">Get It Now</a>
-                </div>
-            </div>
-          </div>
           <!-- // Item -->
         </div>
     </div>
