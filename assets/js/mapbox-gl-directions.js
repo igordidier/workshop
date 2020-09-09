@@ -7706,7 +7706,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
  // substack/brfs#39
-var instructionsTemplate = (0, _lodash2.default)("<div class='directions-control directions-control-directions'>\n  <div class='mapbox-directions-component mapbox-directions-route-summary<% if (routes > 1) { %> mapbox-directions-multiple<% } %>'>\n    <% if (routes > 1) { %>\n    <div class='mapbox-directions-routes mapbox-directions-clearfix'>\n      <% for (var i = 0; i < routes; i++) { %>\n        <input type='radio' name='routes' id='<%= i %>' <% if (i === routeIndex) { %>checked<% } %>>\n        <label for='<%= i %>' class='mapbox-directions-route'><%= i + 1 %></label>\n      <% } %>\n    </div>\n    <% } %>\n    <h1><%- duration %></h1>\n  <h1><%- duration %></h1>\n <span><%- distance %></span>\n    <span><%- distance %></span>\n  </div>\n\n  <div class='mapbox-directions-instructions'>\n    <div class='mapbox-directions-instructions-wrapper'>\n      <ol class='mapbox-directions-steps'>\n        <% steps.forEach(function(step) { %>\n          <%\n            var distance = step.distance ? format(step.distance) : false;\n            var icon = step.maneuver.modifier ? step.maneuver.modifier.replace(/\\s+/g, '-').toLowerCase() : step.maneuver.type.replace(/\\s+/g, '-').toLowerCase();\n\n            if (step.maneuver.type === 'arrive' || step.maneuver.type === 'depart') {\n              icon = step.maneuver.type;\n            }\n\n            if (step.maneuver.type === 'roundabout' || step.maneuver.type === 'rotary') {\n              icon= 'roundabout';\n            }\n\n            var lng = step.maneuver.location[0];\n            var lat = step.maneuver.location[1];\n          %>\n          <li\n            data-lat='<%= lat %>'\n            data-lng='<%= lng %>'\n            class='mapbox-directions-step'>\n            <span class='directions-icon directions-icon-<%= icon %>'></span>\n            <div class='mapbox-directions-step-maneuver'>\n              <%= step.maneuver.instruction %>\n            </div>\n            <% if (distance) { %>\n              <div class='mapbox-directions-step-distance'>\n                <%= distance %>\n              </div>\n            <% } %>\n          </li>\n        <% }); %>\n      </ol>\n    </div>\n  </div>\n</div>\n");
+var instructionsTemplate = (0, _lodash2.default)("<div class='directions-control directions-control-directions'>\n  <div class='mapbox-directions-component mapbox-directions-route-summary<% if (routes > 1) { %> mapbox-directions-multiple<% } %>'>\n    <% if (routes > 1) { %>\n    <div class='mapbox-directions-routes mapbox-directions-clearfix'>\n      <% for (var i = 0; i < routes; i++) { %>\n        <input type='radio' name='routes' id='<%= i %>' <% if (i === routeIndex) { %>checked<% } %>>\n        <label for='<%= i %>' class='mapbox-directions-route'><%= i + 1 %></label>\n      <% } %>\n    </div>\n    <% } %>\n    <h1><%- duration %></h1>\n  <h1><%- coii %></h1>\n <span><%- distance %></span>\n   </div>\n\n  <div class='mapbox-directions-instructions'>\n    <div class='mapbox-directions-instructions-wrapper'>\n      <ol class='mapbox-directions-steps'>\n        <% steps.forEach(function(step) { %>\n          <%\n            var distance = step.distance ? format(step.distance) : false;\n            var icon = step.maneuver.modifier ? step.maneuver.modifier.replace(/\\s+/g, '-').toLowerCase() : step.maneuver.type.replace(/\\s+/g, '-').toLowerCase();\n\n            if (step.maneuver.type === 'arrive' || step.maneuver.type === 'depart') {\n              icon = step.maneuver.type;\n            }\n\n            if (step.maneuver.type === 'roundabout' || step.maneuver.type === 'rotary') {\n              icon= 'roundabout';\n            }\n\n            var lng = step.maneuver.location[0];\n            var lat = step.maneuver.location[1];\n          %>\n          <li\n            data-lat='<%= lat %>'\n            data-lng='<%= lng %>'\n            class='mapbox-directions-step'>\n            <span class='directions-icon directions-icon-<%= icon %>'></span>\n            <div class='mapbox-directions-step-maneuver'>\n              <%= step.maneuver.instruction %>\n            </div>\n            <% if (distance) { %>\n              <div class='mapbox-directions-step-distance'>\n                <%= distance %>\n              </div>\n            <% } %>\n          </li>\n        <% }); %>\n      </ol>\n    </div>\n  </div>\n</div>\n");
 var errorTemplate = (0, _lodash2.default)("<div class='directions-control directions-control-directions'>\n  <div class='mapbox-directions-error'>\n    <%= error %>\n  </div>\n</div>\n");
 
 /**
@@ -7744,6 +7744,7 @@ var Instructions = function () {
         var _store$getState = _this.store.getState(),
             routeIndex = _store$getState.routeIndex,
             unit = _store$getState.unit,
+            co2= _store$getState.co2,
             directions = _store$getState.directions,
             error = _store$getState.error,
             compile = _store$getState.compile;
@@ -7772,7 +7773,9 @@ var Instructions = function () {
             steps: direction.legs[0].steps, // Todo: Respect all legs,
             format: _utils2.default.format[unit],
             duration: _utils2.default.format[unit](direction.distance),
-            distance: _utils2.default.format.duration(direction.duration)
+            distance: _utils2.default.format.duration(direction.duration),
+            coii: _utils2.default.format[co2]
+
           });
 
           var steps = _this.container.querySelectorAll('.mapbox-directions-step');
@@ -8651,6 +8654,7 @@ var initialState = {
   alternatives: false,
   congestion: false,
   unit: 'metric',
+  co2: 'coii',
   flyTo: true,
   placeholderOrigin: 'Choose a starting place',
   placeholderDestination: 'Choose destination',
@@ -8851,9 +8855,11 @@ var format = {
     return m.toFixed(0) + 'm';
   },
 
-  co2: function co2(c) {
-    c = s/m;
-    return c;
+  co2: function coii(c) {
+    if (c >= 100000) return (c / 1000).toFixed(0) + 'km';
+    if (c >= 10000) return (c / 1000).toFixed(1) + 'km';
+    if (c >= 100) return (c / 1000).toFixed(2) + 'km';
+    return c.toFixed(0) + 'c';
   }
 };
 
