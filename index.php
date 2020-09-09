@@ -129,7 +129,7 @@ https://templatemo.com/tm-543-breezed
                 <div class="text-content">
                   <h3>Le Futur dans Tes Mains</h3>
                   <h5>Un site innovant et pratique </h5>
-                  <a href="#" class="main-stroked-button">Documentation<i class="fa fa-arrow-down"></i></a>
+                  <a href="#doc" class="main-stroked-button">Documentation<i class="fa fa-arrow-down"></i></a>
                 </div>
             </div>
           </div>
@@ -171,7 +171,7 @@ accessToken: mapboxgl.accessToken
 
 </script>
 <section class="section" id="features">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1 id="doc"></h1>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
@@ -207,7 +207,7 @@ accessToken: mapboxgl.accessToken
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                     <div class="features-item">
                         <div class="features-icon">
-                            <<img src="https://img.icons8.com/cotton/46/000000/earth-planet--v2.png"/>
+                            <img src="https://img.icons8.com/cotton/46/000000/earth-planet--v2.png"/>
                         </div>
                         <div class="features-content">
                             <h4>Agir pour l'environement</h4>
