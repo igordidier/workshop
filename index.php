@@ -28,6 +28,8 @@ https://templatemo.com/tm-543-breezed
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
+    <a href="https://icons8.com/icon/80684/point-d'interrogation"></a>
+
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
     <link rel="stylesheet" href="assets/css/templatemo-breezed.css">
@@ -175,7 +177,7 @@ accessToken: mapboxgl.accessToken
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                     <div class="features-item">
                         <div class="features-icon">
-                            <img src="assets/images/features-icon-1.png" alt="">
+                            <img src="https://img.icons8.com/flat_round/46/000000/question-mark.png"/>
                         </div>
                         <div class="features-content">
                             <h4>Le Saviez-Vous ?</h4>
@@ -191,13 +193,13 @@ accessToken: mapboxgl.accessToken
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
                     <div class="features-item">
                         <div class="features-icon">
-                            <img src="assets/images/features-icon-1.png" alt="">
+                            <img src="https://img.icons8.com/pastel-glyph/46/000000/map.png"/>
                         </div>
                         <div class="features-content">
-                            <h4>Master Planning</h4>
-                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
-                            <a href="#" class="text-button-icon">
-                                Learn More <i class="fa fa-arrow-right"></i>
+                            <h4>Une carte interactive</h4>
+                            <p>Grâce au plan interactif, choisissez votre trajet, et il calculera quel type de transport est le plus aproprié à votre trajet. (En fonction de la longueur du trajet, son émission de Co2...).</p>
+                            <a href="#about" class="text-button-icon">
+                                Utiliser la carte <i class="fa fa-arrow-up"></i>
                             </a>
                         </div>
                     </div>
@@ -205,13 +207,13 @@ accessToken: mapboxgl.accessToken
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                     <div class="features-item">
                         <div class="features-icon">
-                            <img src="assets/images/features-icon-1.png" alt="">
+                            <<img src="https://img.icons8.com/cotton/46/000000/earth-planet--v2.png"/>
                         </div>
                         <div class="features-content">
-                            <h4>Smooth Execution</h4>
-                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <h4>Agir pour l'environement</h4>
+                            <p>Parce que la moindre contribution à des voyages plus écologiques, permet, petit-à-petit, d'avoir un réel impact sur le futur de notre planète, si ces gestes et changements sont adoptés par le plus grand nombre</p>
                             <a href="#" class="text-button-icon">
-                                Learn More <i class="fa fa-arrow-right"></i>
+                                En Savoir Plus <i class="fa fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
