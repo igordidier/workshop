@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="fr">
 
   <head>
 
@@ -27,8 +26,6 @@ https://templatemo.com/tm-543-breezed
 -->
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-    <a href="https://icons8.com/icon/80684/point-d'interrogation"></a>
 
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
@@ -63,11 +60,9 @@ https://templatemo.com/tm-543-breezed
                         <a href="index.html" class="logo">
                             <u>ECOPAIN</u>
                         </a>
-
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
-
                     </nav>
                 </div>
             </div>
@@ -98,7 +93,6 @@ https://templatemo.com/tm-543-breezed
                 <div class="text-content">
                   <h3>Bienvenue à ECOPAIN</h3>
                   <h5>Un Trajet Pour La Planète</h5>
-                  <a href="#about" class="main-stroked-button">Regarder la Carte<i class="fa fa-arrow-down"></i></a>
                 </div>
             </div>
           </div>
@@ -108,9 +102,6 @@ https://templatemo.com/tm-543-breezed
             <div class="img-fill">
                 <img src="assets/images/slide-02.jpg" alt="">
                 <div class="text-content">
-                  <h3>Le Futur dans Tes Mains</h3>
-                  <h5>Un site innovant et pratique </h5>
-                  <a href="#doc" class="main-stroked-button">Documentation<i class="fa fa-arrow-down"></i></a>
                 </div>
             </div>
           </div>
@@ -151,58 +142,6 @@ accessToken: mapboxgl.accessToken
 );
 
 </script>
-<section class="section" id="features">
-    <h1 id="doc"></h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="https://img.icons8.com/flat_round/46/000000/question-mark.png"/>
-                        </div>
-                        <div class="features-content">
-                            <h4>Le Saviez-Vous ?</h4>
-                            <p>Rouler coûte de plus en plus cher avec une voiture, en plus de produire en quantité des émissions de gaz à effet de serre, qui contribuent malheureseument
-                              a la polution des villes et, sur une plus grande echelle, au réchaufement climatique. En moyenne, la plupart de nos trajets urbains ne dépassent pas deux kilomètres, la voiture peut
-                              être remplacée.</p>
-                            <a href="https://fr.wikipedia.org/wiki/Impact_environnemental_du_transport_routier" class="text-button-icon">
-                                En Savoir Plus</a> <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="https://img.icons8.com/pastel-glyph/46/000000/map.png"/>
-                        </div>
-                        <div class="features-content">
-                            <h4>Une carte interactive</h4>
-                            <p>Grâce au plan interactif, choisissez votre trajet, et il calculera quel type de transport est le plus aproprié à votre trajet. (En fonction de la longueur du trajet, son émission de Co2...).</p>
-                            <a href="#about" class="text-button-icon">
-                                Utiliser la carte <i class="fa fa-arrow-up"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="https://img.icons8.com/cotton/46/000000/earth-planet--v2.png"/>
-                        </div>
-                        <div class="features-content">
-                            <h4>Agir pour l'environement</h4>
-                            <p>Parce que la moindre contribution à des voyages plus écologiques, permet, petit-à-petit, d'avoir un réel impact sur le futur de notre planète, si ces gestes et changements sont adoptés par le plus grand nombre</p>
-                            <a href="#" class="text-button-icon">
-                                En Savoir Plus <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    </section>
 
 
     <!-- ***** About Area Ends ***** -->
@@ -228,36 +167,41 @@ accessToken: mapboxgl.accessToken
                         <div class="section-heading">
                             <h6>Contact Us</h6>
                             <h2>Feel free to keep in touch with us!</h2>
+                            <h6>Contactez Nous</h6>
                         </div>
                         <ul class="contact-info">
                             <li><img src="assets/images/contact-info-01.png" alt="">010-020-0860</li>
                             <li><img src="assets/images/contact-info-02.png" alt="">ecopainplanet@gmail.com</li>
-                            <li><img src="assets/images/contact-info-03.png" alt="">www.company.com</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-xs-12">
                     <div class="contact-form">
                         <form id="contact" action="" method="get">
+                        <form id="contact" action="" method="post">
                           <div class="row">
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
                                 <input name="name" type="text" id="name" placeholder="Your Name *" required="">
+                                <input name="name" type="text" id="name" placeholder="Ton Nom *" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
                                 <input name="phone" type="text" id="phone" placeholder="Your Phone" required="">
+                                <input name="phone" type="text" id="phone" placeholder="Téléphone" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
                                 <input name="email" type="email" id="email" placeholder="Your Email *" required="">
+                                <input name="email" type="email" id="email" placeholder="Ton Email *" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
                                 <input name="subject" type="text" id="subject" placeholder="Subject">
+                                <input name="subject" type="text" id="subject" placeholder="Sujet">
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
@@ -268,6 +212,7 @@ accessToken: mapboxgl.accessToken
                             <div class="col-lg-12">
                               <fieldset>
                                 <button type="submit" id="form-submit" class="main-button-icon">Send Message Now <i class="fa fa-arrow-right"></i></button>
+                              <button name="Envoyer" type="submit" id="form-submit" class="main-button-icon">Envoyer ton Message <i class="fa fa-arrow-right"></i></button>
                               </fieldset>
                             </div>
                           </div>
@@ -279,13 +224,27 @@ accessToken: mapboxgl.accessToken
     </section>
     <!-- ***** Contact Us Area Ends ***** -->
 
+    <?php
+      if (isset ($_POST['Envoyer']))
+      {
+        ini_set( 'display_errors', 1 );
+        error_reporting( E_ALL );
+        $from = $_POST['email'];
+        $to = "ecopainplanet@gmail.com";
+        $subject = $_POST['subject'];
+        $message = $_POST['message'];
+        $headers = "De :" . $from;
+        mail($to,$subject,$message, $headers);
+        echo "L'email a été envoyé.";
+      }
+    ?>
+
     <!-- ***** Footer Start ***** -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-xs-12">
                     <div class="left-text-content">
-                        <p>Copyright &copy; Ecopain, EPSI GRENOBLE 2020.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xs-12">
