@@ -309,8 +309,8 @@ accessToken: mapboxgl.accessToken
                     <div class="right-text-content">
                             <ul class="social-icons">
                                 <li><p>Follow Us</p></li>
-                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
-                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-twitter"></i></a></li>
+                                <li><a rel="nofollow" href="https://www.facebook.com/ecopain.planet"><i class="fa fa-facebook"></i></a></li>
+                                <li><a rel="nofollow" href="https://twitter.com/EcopainP"><i class="fa fa-twitter"></i></a></li>
 
                             </ul>
                     </div>
