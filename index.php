@@ -150,7 +150,13 @@ accessToken: mapboxgl.accessToken
 <br>
 <br>
 <br>
+<section class="section" id="results">
+<script type="text/javascript">
 
+<%- distance %>
+
+</script>
+</section>
 <section class="section" id="doc">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <div class="container">
